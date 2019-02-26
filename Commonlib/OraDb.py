@@ -13,7 +13,6 @@ class OraDb():
             return cms
         except Exception ,e:
             print e
-
         # 关闭数据库连接
     def closeData(self):
         self.cs1.close()

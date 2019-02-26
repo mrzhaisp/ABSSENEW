@@ -45,17 +45,9 @@ if __name__ == '__main__':
         list3 =dm.dateSelec(sql,param)
         # print list3
         alllist.append(list3)
-    # print alllist
+    print alllist
 
-    #alllist存的是32个省的  两个字段  省编码  和  报文
-    for rows in alllist:
-        print rows
-        for row in rows:
-            print row
 
-        # dict_new = dict(zip(list_compnum,list_content_a))
-        # print dict_new
-        # 关闭数据库链接
     # dm.closeData()
 
 
