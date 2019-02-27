@@ -15,6 +15,7 @@ class OraDb():
             print e
         # 关闭数据库连接
     def closeData(self):
+        #关闭游标  ，链接
         self.cs1.close()
         self.db.close()
 
