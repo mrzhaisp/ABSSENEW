@@ -47,16 +47,8 @@ class ProductInfo():
             poidict_unicode = poistr["poInfo"]
             poidict = json.dumps(poidict_unicode,encoding="UTF-8",ensure_ascii=False)
             print poidict
-
+        self.od.closeData()
 if __name__ == '__main__':
     sy = ProductInfo()
     sy.test_normal()
     sy.get_poinfo()
-    sy.od.closeData()
-
-
-
-
-
-
-
