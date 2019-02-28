@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09cff65e-03f4-43b1-8378-a2582170d94e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestTemp/Dictmultidict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/injson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTemp/functi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTemp/jsontest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/logInfo.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/logInfo.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/4.1.2Content.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/4.1.2Content.py" afterDir="false" />
@@ -15,12 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ABSSENEW$injson.coverage" NAME="injson Coverage Results" MODIFIED="1551337319476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestTemp" />
     <SUITE FILE_PATH="coverage/ABSREQ$dbOracle.coverage" NAME="dbOracle Coverage Results" MODIFIED="1551075641360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestTemp" />
     <SUITE FILE_PATH="coverage/ABSREQ$4_1_2req.coverage" NAME="4.1.2req Coverage Results" MODIFIED="1550745766877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/ABSSENEW$4_1_2desc.coverage" NAME="4.1.2desc Coverage Results" MODIFIED="1551179948835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/ABSSENEW$LogIni.coverage" NAME="LogIni Coverage Results" MODIFIED="1551262968079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commonlib" />
-    <SUITE FILE_PATH="coverage/ABSSENEW$4_1_2Content.coverage" NAME="4.1.2Content Coverage Results" MODIFIED="1551268979029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/ABSSENEW$4_1_2descComp.coverage" NAME="4.1.2descComp Coverage Results" MODIFIED="1551265945721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/ABSSENEW$4_1_2Content.coverage" NAME="4.1.2Content Coverage Results" MODIFIED="1551342386428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/ABSSENEW$functi.coverage" NAME="functi Coverage Results" MODIFIED="1551322087580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestTemp" />
+    <SUITE FILE_PATH="coverage/ABSSENEW$4_1_2descComp.coverage" NAME="4.1.2descComp Coverage Results" MODIFIED="1551323178092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/ABSSENEW$injson__1_.coverage" NAME="injson (1) Coverage Results" MODIFIED="1551342299463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/ABSSENEW$4_1_2Req.coverage" NAME="4.1.2Req Coverage Results" MODIFIED="1551179093484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/ABSREQ$testlitsToint.coverage" NAME="testlitsToint Coverage Results" MODIFIED="1551076334176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestTemp" />
     <SUITE FILE_PATH="coverage/ABSREQ$OraDb.coverage" NAME="OraDb Coverage Results" MODIFIED="1551081921101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commonlib" />
@@ -28,14 +33,15 @@
     <SUITE FILE_PATH="coverage/ABSREQ$4_1_2req2.coverage" NAME="4.1.2req2 Coverage Results" MODIFIED="1551175096100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/ABSREQ$4_1_2req3.coverage" NAME="4.1.2req3 Coverage Results" MODIFIED="1551071310122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/ABSREQ$Oraclecline.coverage" NAME="Oraclecline Coverage Results" MODIFIED="1551174684800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commonlib" />
+    <SUITE FILE_PATH="coverage/ABSSENEW$jsontest.coverage" NAME="jsontest Coverage Results" MODIFIED="1551346313746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestTemp" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/4.1.2Content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="200">
+              <caret line="47" column="84" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="84" />
               <folding>
                 <element signature="e#34#67#0" expanded="true" />
               </folding>
@@ -44,22 +50,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/4.1.2descComp.py">
+        <entry file="file://$PROJECT_DIR$/Test/injson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-868">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-end-line="21" />
+            <state relative-caret-position="200">
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="64" />
               <folding>
-                <element signature="e#13#46#0" expanded="true" />
+                <element signature="e#14#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logs/logInfo.log">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestTemp/jsontest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="16" selection-start-line="1" selection-end-line="2" />
+            <state relative-caret-position="100">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#14#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,9 +107,12 @@
         <option value="$PROJECT_DIR$/Commonlib/OraDb.py" />
         <option value="$PROJECT_DIR$/TestTemp/Dictmultidict.py" />
         <option value="$PROJECT_DIR$/Commonlib/LogIni.py" />
+        <option value="$PROJECT_DIR$/TestTemp/functi.py" />
+        <option value="$PROJECT_DIR$/Test/4.1.2Content.py" />
         <option value="$PROJECT_DIR$/Logs/logInfo.log" />
         <option value="$PROJECT_DIR$/Test/4.1.2descComp.py" />
-        <option value="$PROJECT_DIR$/Test/4.1.2Content.py" />
+        <option value="$PROJECT_DIR$/TestTemp/injson.py" />
+        <option value="$PROJECT_DIR$/TestTemp/jsontest.py" />
       </list>
     </option>
   </component>
@@ -160,13 +172,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\BBOSS\jemeterAboutABSCenter\ABSREQ\Test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\BBOSS\ABSSENEW\Test" />
       <recent name="G:\BBOSS\jemeterAboutABSCenter\ABSREQ\TestTemp" />
       <recent name="G:\BBOSS\jemeterAboutABSCenter\ABSREQ\Test" />
       <recent name="G:\BBOSS\jemeterAboutABSCenter\ABSREQ\Commonlib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\BBOSS\jemeterAboutABSCenter\ABSREQ\Test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4.1.2Content">
+  <component name="RunManager" selected="Python.jsontest">
     <configuration name="4.1.2Content" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ABSREQ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,50 +209,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/4.1.2Content.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4.1.2Req" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ABSREQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\BBOSS\ABSSENEW\Test\4.1.2Content.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4.1.2desc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ABSREQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\BBOSS\ABSSENEW\Test\4.1.2descComp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LogIni" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="injson (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ABSREQ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,12 +247,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Commonlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Commonlib/LogIni.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/injson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="injson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ABSREQ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestTemp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\BBOSS\ABSSENEW\Test\injson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jsontest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ABSREQ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestTemp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestTemp/jsontest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jsontest" />
         <item itemvalue="Python.4.1.2Content" />
+        <item itemvalue="Python.injson (1)" />
+        <item itemvalue="Python.injson" />
         <item itemvalue="Python.4.1.2descComp" />
-        <item itemvalue="Python.LogIni" />
-        <item itemvalue="Python.4.1.2desc" />
-        <item itemvalue="Python.4.1.2Req" />
       </list>
     </recent_temporary>
   </component>
@@ -320,22 +333,24 @@
       <workItem from="1551096934885" duration="3318000" />
       <workItem from="1551151600433" duration="11400000" />
       <workItem from="1551176862374" duration="3660000" />
-      <workItem from="1551234092693" duration="23305000" />
+      <workItem from="1551234092693" duration="23733000" />
+      <workItem from="1551321240075" duration="13171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83709000" />
+    <option name="totallyTimeSpent" value="97308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383437" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1756135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49846625" visible="true" weight="0.13194445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49846625" visible="true" weight="0.2482639" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38793105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/ruanjian/python_path/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="192" column="4" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/ruanjian/python_path/Lib/site-packages/selenium-2.46.1-py2.7.egg/selenium/webdriver/remote/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -441,23 +449,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Commonlib/OraDb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/logInfo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/errorinfo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/logInfo.txt" />
+    <entry file="file://$PROJECT_DIR$/Logs/errorinfo.txt" />
     <entry file="file://$PROJECT_DIR$/Commonlib/LogIni.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -465,26 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/example.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/logInfo.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="16" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/4.1.2descComp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-end-line="21" />
-          <folding>
-            <element signature="e#13#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/example.log" />
     <entry file="file://$PROJECT_DIR$/TestTemp/4.1.2req3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -495,12 +469,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestTemp/functi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ruanjian/python_path/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/4.1.2descComp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <element signature="e#14#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/logInfo.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commonlib/OraDb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/4.1.2Content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="200">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="84" />
           <folding>
             <element signature="e#34#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/injson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="64" />
+          <folding>
+            <element signature="e#14#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestTemp/jsontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

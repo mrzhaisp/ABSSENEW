@@ -50,10 +50,9 @@ class Productindesc():
                 responsedescinfo = responsedesc['response']
                 # print type(responsedescinfo),responsedescinfo
                 result = json.dumps(responsedescinfo,encoding='UTF-8', ensure_ascii=False)
-                print result
+                # print result
                 compnum.append(result)
                 compnum.append('                            ')
-
         # print type(compnum),compnum
         #拿到组合成的省编码和报错信息 组合成一个字典
         # dictcompdescascii = dict(map(lambda x,y:[x,y],compnum,errordesc))
@@ -61,11 +60,11 @@ class Productindesc():
         # #转成字典后汉字出现二进制  需要转化成utf-8
         # dictcompdescunicode = json.dumps(dictcompdescascii,encoding="UTF-8",ensure_ascii=False)
         # print type(dictcompdescunicode),dictcompdescunicode
-
         #输出到日志
         self.lo.log(compnum)
         end_time = "END_"  +"*"*20,datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')+"*"*20
         self.lo.log(end_time)
+        print compnum
         #关闭数据库连接
         self.ora.closeData()
 

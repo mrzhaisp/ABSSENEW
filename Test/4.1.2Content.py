@@ -50,5 +50,5 @@ class ProductInfo():
         self.od.closeData()
 if __name__ == '__main__':
     sy = ProductInfo()
-    sy.test_normal()
+    # sy.test_normal()
     sy.get_poinfo()
