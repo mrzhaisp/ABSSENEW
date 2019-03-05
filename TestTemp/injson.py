@@ -24,9 +24,9 @@ class Getinfo():
         # 字符串反序列化成字典但是里面有unicode
         poistr = json.loads(m6)
         poidict_unicode = poistr["poInfo"]
-        poiunicode = json.dumps(poidict_unicode, encoding="UTF-8", ensure_ascii=False)
+        poiunicode = json.dumps(poidict_unicode, ensure_ascii=False)
         datejson = json.loads(poiunicode)
-        print type(datejson),datejson
+        print (type(datejson),datejson)
 
 g = Getinfo()
 g.getInfo()

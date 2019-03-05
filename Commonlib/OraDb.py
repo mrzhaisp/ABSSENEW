@@ -11,9 +11,10 @@ class OraDb():
         try:
             cms = self.cs1.execute(sql,Twob)
             return cms
-        except Exception ,e:
-            print e
+        except Exception  as e:
+            print (e)
         # 关闭数据库连接
+
     def closeData(self):
         #关闭游标  ，链接
         self.cs1.close()

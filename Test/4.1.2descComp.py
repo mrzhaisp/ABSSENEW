@@ -3,9 +3,8 @@ from Commonlib.OraDb import OraDb
 from Commonlib.LogIni import LogIni
 import requests,datetime,time
 import json
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+import importlib,sys
+importlib.reload(sys)
 
 class Productindesc():
     def __init__(self):
@@ -15,7 +14,7 @@ class Productindesc():
 
     def test_normal(self):
         """拿到所有下发的orderid"""
-        offnumber = raw_input(u"请输出商产品规格编码")
+        offnumber =input (u"请输出商产品规格编码")
         baseurl = self.base_url + offnumber
         # print baseurl
         stsrt_time = "START_" + u'下发产品规格offernumber'+ '%s' %(offnumber ) +"*" * 20 + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') +"*" * 20
@@ -49,7 +48,7 @@ class Productindesc():
                 # responsedesc = json.dumps(responsedesc, encoding="UTF-8", ensure_ascii=False)
                 responsedescinfo = responsedesc['response']
                 # print type(responsedescinfo),responsedescinfo
-                result = json.dumps(responsedescinfo,encoding='UTF-8', ensure_ascii=False)
+                result = json.dumps(responsedescinfo, ensure_ascii=False)
                 # print result
                 compnum.append(result)
                 compnum.append('                            ')
@@ -64,7 +63,7 @@ class Productindesc():
         self.lo.log(compnum)
         end_time = "END_"  +"*"*20,datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')+"*"*20
         self.lo.log(end_time)
-        print compnum
+        print (compnum)
         #关闭数据库连接
         self.ora.closeData()
 

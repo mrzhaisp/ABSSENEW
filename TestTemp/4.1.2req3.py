@@ -4,9 +4,8 @@ from Commonlib.OraDb import OraDb
 import requests
 import json
 import time
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+import importlib,sys
+importlib.reload(sys)
 class ProductInfo():
     """4.1.商产品规格信息同步"""
     def __init__(self):
@@ -27,15 +26,15 @@ class ProductInfo():
     def get_orderinfo(self):
         info_list = []
         li_orderid = self.test_normal()
-        print type(li_orderid),"list1 is %s" %li_orderid
+        print (type(li_orderid),"list1 is %s" %li_orderid)
         int_orderid = int(li_orderid)
-        print type(int_orderid)
+        print (type(int_orderid))
         # print orderid
         pram = {'a': li_orderid}
         sql = "select  req_content from abs_product.pc_syncproduct_log   where orderid  in :a "
         content = self.od.Selec_Dtae(sql, pram)
         info_list.append(content)
-        print info_list
+        print (info_list)
 
 
 if __name__ == '__main__':
